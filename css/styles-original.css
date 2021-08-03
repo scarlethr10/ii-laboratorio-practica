@@ -76,7 +76,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   line-height: 1.2;
 }
@@ -208,7 +208,7 @@ sup {
 }
 
 a {
-  color: #ECBCB0;
+  color: #e6a756;
   text-decoration: underline;
 }
 a:hover {
@@ -245,6 +245,8 @@ pre code {
 
 code {
   font-size: 0.875em;
+  color: #d63384;
+  word-wrap: break-word;
 }
 a > code {
   color: inherit;
@@ -566,7 +568,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 500%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -605,7 +607,6 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (min-width: 576px) {
@@ -2963,8 +2964,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #000;
-  background-color: #ECBCB0;
-  border-color: #CE7870;
+  background-color: #e6a756;
+  border-color: #e6a756;
 }
 .btn-primary:hover {
   color: #000;
@@ -4437,7 +4438,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  background-color: #EDBCB0;
+  background-color: #fff;
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -5887,20 +5888,12 @@ textarea.form-control-lg {
   } ]
 } */
 .carousel-control-prev-icon {
-  background-image: url("../assets/img/flechai.svg");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
-
-/*Clases personalizadas de Scareth*/
-
-.my-img-documentacion {
-  height: 600px !important;
-}
-
-/*FIN*/
 
 .carousel-indicators {
   position: absolute;
@@ -7358,7 +7351,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #ECBCB0 !important;
+  color: #e6a756 !important;
 }
 
 .text-secondary {
@@ -10859,7 +10852,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/digital.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -10911,7 +10904,7 @@ p {
 }
 
 .bg-faded {
-  background-color: #f7ede0;
+  background-color: #f6e1c5;
 }
 
 .btn-xl {
@@ -10924,18 +10917,18 @@ p {
 }
 
 #mainNav {
-  background-color: #826A5F;
+  background-color: rgba(47, 23, 15, 0.9);
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
-  color: #ECBCB0;
+  color: #e6a756;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #ECBCB0;
+  color: #e6a756;
 }
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -10945,7 +10938,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #ECBCB0;
+    color: #e6a756;
   }
 }
 
@@ -10968,6 +10961,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: rgba(230, 167, 86, 0.9);
 }
 .cta .cta-inner {
   position: relative;
@@ -10987,8 +10981,7 @@ p {
 }
 
 .footer {
-  background-color: #826A5F;
-  font-family:"Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  background-color: rgba(47, 23, 15, 0.9);
 }
 
 .intro {
